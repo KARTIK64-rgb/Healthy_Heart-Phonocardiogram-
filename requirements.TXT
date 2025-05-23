@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+streamlit
+tensorflow
+librosa
+matplotlib
+pillow
+numpy
+python-multipart
