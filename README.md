@@ -20,7 +20,7 @@ This project uses machine learning to classify heart sounds from PCG (Phonocardi
 
 - **Source**: [PhysioNet 2016 Challenge](https://physionet.org/content/challenge-2016/)
 - **Files**: `.wav` audio files + `.txt` labels
-- **Classes**: `normal`, `abnormal`, `unsure`
+- **Classes**: `normal`, `abnormal`
 
 ---
 
@@ -33,18 +33,18 @@ pip install -r requirements.txt
 
 ### 2. Train the model
 ```bash
-python train.py
+Load the model in your project file 
 ```
 
 ### 3. Run the web app
 ```bash
-cd app
+
 streamlit run app.py
 ```
 
 ### 4. Run the API
 ```bash
-cd api
+
 uvicorn main:app --reload
 ```
 
@@ -52,4 +52,4 @@ uvicorn main:app --reload
 
 ## 📧 Contact
 
-For questions, open a GitHub issue or email: [your-email@example.com](mailto:your-email@example.com)
+For questions, open a GitHub issue or email: [kartikguptaasg@gmail.com)
